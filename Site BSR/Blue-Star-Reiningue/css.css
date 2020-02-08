@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(  rgb(0, 132, 255), rgb(1, 1, 109));
+    min-height: 100vh;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    display:grid;
+    grid-template-columns: auto 7% 7%;
+    align-items: center;
+}
+.logo{
+    padding: 20px;
+    margin-right: 5%;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+    text-decoration-line: underline;
+    transition: 0.5s;
+}
+.gauche{
+padding: 60px;
+margin-right: auto;
+font-size: 30px;
+text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.actu{
+margin-left: auto;
+padding: 50px;
+font-size: 30px;
+}
+.droite{
+padding: 50px;
+margin-left: auto;
+font-size: 30px;
+}
+.toute{
+    text-align: center;
+}
+/**********************/
+/* Fin de Haut de page*/
+/**********************/
+
+.grand{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.article{
+    font-size: 20px;
+    background-color:white;
+    text-align: center;
+    width: 60%;
+}
+.principale{
+    background-color:white;
+    text-align: center;
+    height: auto;
+    color: red;
+}
+.pub{
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+.pub1{
+    zoom: 200%;
+}
+/**********************/
+/* bas de page*/
+/**********************/
+.img{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.foote{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: auto;
+    justify-content: space-between;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+svg{
+    padding: 10px;
+}
+.foot{
+    font-size: 25px;
+    text-align: center;
+}
